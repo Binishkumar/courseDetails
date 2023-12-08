@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding:0px;
+      
+}
+.tranning{
+    width: 90%;
+    /* height: 500px; */
+    /* background: url("bg\ image.jpg") ; */
+    background-size: cover;
+    padding: 40px;
+
+}
+.tranning h1{
+    text-align: center;
+    padding: 50px ;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    
+    
+}
+.training {
+    flex-basis:23%;
+    /* background-color: brown; */
+    margin: 10px ;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 0px 10px 3px green ;
+}
+.training h3{
+    padding: 10px 0px;
+}
+.training p{
+    font-size: 14px;
+    padding: 10 px;
+}
+.training button{
+    background: blue;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.training :hover {
+    background: blue;
+}
+.training :hover h3 , .training :hover p{
+    color: white;
+}
+.training :hover button{
+    background: white;
+    color: blue;
+
+}
+@media only screen and ( min-width :200px) and (max-width :767px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+
+
